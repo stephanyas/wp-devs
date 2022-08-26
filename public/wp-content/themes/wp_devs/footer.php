@@ -7,5 +7,7 @@
             footer
         </footer>
     </div>
+    <!-- chama os scripts -->
+    <?php wp_footer(); ?>
 </body>
 </html>

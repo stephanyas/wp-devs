@@ -12,6 +12,7 @@
     <meta charset=" <?php bloginfo( 'charset' );?> ">  
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php wp_head(); ?> <!-- tudo que é infileirado de script/css sera colocado aqui sem ele nada de estilo/script funciosa ate as do plug-in--> 
     <!-- O title é incluido no functions.php --> 
 </head>
 <body <?php body_class();?> > <!-- body_class: ele nos ajuda a identificar em qual pág estamos trabalhando no tema (ela retorna as classes relacionadas a pág que estamos vizualizando)-->
